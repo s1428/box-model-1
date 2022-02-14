@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/*Custom styles*/
+.heading {
+    border: 1px red solid;
+    background-color: #D18C1D;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.para {
+    width: 600px;
+    height: 400px;
+    border: 2px dotted black;
+    background-color: #d1d631;
+    padding: 24px;
+}
+img {
+    width: 300px;
+    border-radius: 24px;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+/*footer*/
+a {
+border-bottom: 3px blue dashed;
+text-decoration: none;
+background-color: #A1A1A1;
+padding: 16px;
+font-size: 24px;
+display: inline-block;
+}
